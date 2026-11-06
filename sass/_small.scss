@@ -30,19 +30,29 @@ header {
 
   span {
     font-size: 1.2rem;
-    color: $color-grey-80;
+    color: $color-primary;
   }
 }
 
 
 /************************** MAIN LAYOUT **************************/
-h1 {
-  font-size: 1.5rem;
-  color: $color-grey-60;
-  font-weight: $font-weight-heavy;
-  margin-left: $gutter;
+main>h1 {
+  color: $color-primary;
 }
-
+main>h2 {
+  color: $color-secondary;
+}
+main>p {
+  color: $color-grey-40;
+}
+main>ul {
+  color: $color-grey-30;
+  li::marker {
+    content: "\f10c";
+    font-size: 1.5rem;
+    color: $color-grey-20;
+  }
+}
 
 
 /************************** HERO LAYOUT **************************/

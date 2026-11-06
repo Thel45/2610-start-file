@@ -2,17 +2,16 @@ $color-primary: #21345A;
 $color-secondary: #715B6C;
 
 // Add a Neutral grey scale colors
-$color-grey-05: lab(98% 0 0);
-$color-grey-10: lab(97% 0 0);
-$color-grey-20: lab(91% 0 0);
-$color-grey-30: lab(85% 0 0);
-$color-grey-40: lab(66% 0 0);
-$color-grey-50: lab(48% 0 0);
-$color-grey-60: lab(34% 0 0);
-$color-grey-70: lab(27% 0 0);
-$color-grey-80: lab(15% 0 0);
-$color-grey-90: lab(8% 0 0);
-$color-grey-95: lab(3% 0 0);
+$color-grey-05: #D1D0D9;
+$color-grey-10: #D0D2D9;
+$color-grey-20: #D4D0D9;
+$color-grey-30: #D0D5D9;
+$color-grey-40: #D7D0D9;
+$color-grey-50: #D9D0D7;
+$color-grey-60: #D1D0D9;
+$color-grey-70: #D9D0D2;
+$color-grey-80: #D9D1D0;
+
 
 /* Add White Transparent Colors */
 $color-trans-w10: rgba(255, 255, 255, 0.1);
