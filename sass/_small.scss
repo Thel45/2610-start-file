@@ -38,12 +38,19 @@ header {
 /************************** MAIN LAYOUT **************************/
 main>h1 {
   color: $color-primary;
+  padding: .75rem $gutter;
 }
 main>h2 {
   color: $color-secondary;
+  padding: .75rem $gutter;
+}
+main>h3 {
+  color: $color-grey-10;
+  padding: .75rem $gutter;
 }
 main>p {
   color: $color-grey-40;
+  padding: .75rem $gutter;
 }
 main>ul {
   color: $color-grey-30;
@@ -51,6 +58,7 @@ main>ul {
     content: "\f10c";
     font-size: 1.5rem;
     color: $color-grey-20;
+    padding: .75rem $gutter;
   }
 }
 
@@ -81,6 +89,7 @@ main>ul {
   justify-content: left; 
   column-gap: 5px;
   margin-bottom: 1rem;
+  padding: .75rem $gutter;
 
   img {
     display: block;
@@ -116,5 +125,9 @@ footer {
     margin: 0.25rem;
     font-size: 0.8rem;
     font-weight: 300;
+  }
+  a {
+    color: $color-trans-w80;
+    text-decoration: none;
   }
 }

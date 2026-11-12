@@ -418,14 +418,22 @@ header span {
 /************************** MAIN LAYOUT **************************/
 main > h1 {
   color: #21345A;
+  padding: 0.75rem 10px;
 }
 
 main > h2 {
   color: #715B6C;
+  padding: 0.75rem 10px;
+}
+
+main > h3 {
+  color: #D0D2D9;
+  padding: 0.75rem 10px;
 }
 
 main > p {
   color: #D7D0D9;
+  padding: 0.75rem 10px;
 }
 
 main > ul {
@@ -435,6 +443,7 @@ main > ul li::marker {
   content: "\f10c";
   font-size: 1.5rem;
   color: #D4D0D9;
+  padding: 0.75rem 10px;
 }
 
 /************************** HERO LAYOUT **************************/
@@ -462,6 +471,7 @@ main > ul li::marker {
   justify-content: left;
   column-gap: 5px;
   margin-bottom: 1rem;
+  padding: 0.75rem 10px;
 }
 .social img {
   display: block;
@@ -493,6 +503,10 @@ footer p {
   margin: 0.25rem;
   font-size: 0.8rem;
   font-weight: 300;
+}
+footer a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
 }
 
 /************************** IMPORT VARIABLES **************************/
