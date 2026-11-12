@@ -78,7 +78,7 @@ main>ul {
 /************************** SOCIAL MEDIA **************************/
 .social {
   display: flex;
-  justify-content: center;
+  justify-content: left; 
   column-gap: 5px;
   margin-bottom: 1rem;
 
@@ -107,8 +107,8 @@ main>ul {
 
 /************************** FOOTER **************************/
 footer {
-  background-color: $color-grey-80;
-  color: $color-grey-05;
+  background-color: $color-trans-b20;
+  color: $color-trans-w80;
   text-align: center;
   padding: 1rem 0;
 

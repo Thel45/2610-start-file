@@ -356,7 +356,7 @@ template {
   transition: background-color 0.3s ease;
 }
 .site-nav a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #D1D0D9;
   color: #D0D2D9;
 }
 
@@ -459,7 +459,7 @@ main > ul li::marker {
 /************************** SOCIAL MEDIA **************************/
 .social {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   column-gap: 5px;
   margin-bottom: 1rem;
 }
@@ -484,8 +484,8 @@ main > ul li::marker {
 
 /************************** FOOTER **************************/
 footer {
-  background-color: #D9D1D0;
-  color: #D1D0D9;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 1rem 0;
 }
